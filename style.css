@@ -1,0 +1,99 @@
+/* Configuração geral */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: white; /* Fundo branco no corpo do site */
+    color: #333;
+}
+
+/* Cabeçalho com título e slogan */
+header {
+    background-color: black; /* Fundo preto no cabeçalho */
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-style: italic;
+    margin: 5px 0 0;
+    font-size: 1.2rem;
+    color: #ccc; /* Slogan em cinza claro */
+}
+
+/* Links do menu */
+nav {
+    text-align: center;
+    background-color: #222;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* Blocos para as seções */
+section {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;0
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos das seções */
+section h2 {
+    font-size: 1.8rem;
+    color: black;
+    margin-bottom: 15px;
+    border-bottom: 2px solid red;
+    padding-bottom: 5px;
+}
+
+/* Botões */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 15px 10px;
+    background-color: black;
+    color: white;
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
